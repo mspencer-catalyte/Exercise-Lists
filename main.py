@@ -55,7 +55,8 @@ def search_and_destroy(array, target):
         print_list(array)
 
 
-search_and_destroy(task_list, "API Iterations")
+search_and_destroy(task_list, "API Iterations") # Check for missing or mistyped task
+
 search_and_destroy(task_list, "API Integration")
 
 # Modifying a list's length (add / remove) while looping through it 
