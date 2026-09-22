@@ -55,7 +55,7 @@ def search_and_destroy(array, target):
         print("List not updated.")
         print_list(array)
         
-search_and_destroy(task_list, "API Integrations")
+search_and_destroy(task_list, "API Integration")
 
 # Modifying a list's length (add / remove) while looping through it 
 # in a for loop is not safe. Research why and find a solution. 
