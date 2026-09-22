@@ -4,9 +4,8 @@ task_list = ["Database Setup", "UI Design", "API Integration", "Security Audit"]
 def print_list(array):
     """This function will print all object in input list"""
     print("\r")
-    print("Current List:")
-    for item in array:
-        print(item)
+    print("Current List:")  
+    print(*array, sep = ", ")
     print("\r")     
 
 print_list(task_list)
