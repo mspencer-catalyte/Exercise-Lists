@@ -60,4 +60,4 @@ search_and_destroy(task_list, "API Integrations")
 
 # Modifying a list's length (add / remove) while looping through it 
 # in a for loop is not safe. Research why and find a solution. 
-"""This is not safe because we could run into an negative error in the iteration of the list. """
+"""This is not safe because we could run into an error and crash or skip items in the iteration of the list. """
